@@ -44,7 +44,7 @@ ro.qualcomm.bt.hci_transport=smd
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
 camera.display.umax=1920x1080 \
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
+camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android \
 camera.lowpower.record.enable=1 \
 media.camera.ts.monotonic=1 \
 persist.camera.gyro.disable=0 \
@@ -214,10 +214,10 @@ ro.hwui.text_large_cache_height=1024
 
 # Lau's magic props
 PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.hw=1 \ 
+debug.sf.hw=1 \
 debug.hwui.renderer=skiagl \
 debug.cpurend.vsync=false \
-vendor.display.enable_default_color_mode=0 \ 
+vendor.display.enable_default_color_mode=0 \
 debug.composition.type=c2d  \
 debug.mdpcomp.idletime=600  \
 persist.hwc.ptor.enable=true \
